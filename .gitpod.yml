@@ -1,8 +1,26 @@
+# Gitpod configuration file
+image: gitpod/workspace-full
+
 tasks:
   - name: Setup Environment
-    command: |
-      sudo apt-get update && sudo apt-get install -y maven
-      mvn clean install
+    init: |
+      # Install Java and Maven
+      sudo apt update && sudo apt install -y openjdk-17-jdk maven
+      # Verify installation
+      java -version
+      mvn -version
+
   - name: Run Tests
     command: |
-      mvn test
+      # Run tests on LambdaTest Cloud Selenium Grid
+      mvn clean test
+
+ports:
+  - port: 4444
+    onOpen: ignore
+
+github:
+  prebuilds:
+    # Enable prebuilds for faster startup
+    master: true
+    branches: true
