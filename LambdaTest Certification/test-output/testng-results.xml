@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-10T00:33:52 IST" name="LambdaTestSuite" finished-at="2025-03-10T00:35:06 IST" duration-ms="74031">
+    <groups>
+    </groups>
+    <test started-at="2025-03-10T00:33:52 IST" name="ParallelTests" finished-at="2025-03-10T00:35:06 IST" duration-ms="74031">
+      <class name="dragAndDropSliders.DragAndDropSlidersClass">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:dragAndDropSliders.DragAndDropSlidersClass@4efac082]" started-at="2025-03-10T00:33:52 IST" name="setup" finished-at="2025-03-10T00:34:24 IST" duration-ms="31562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dragAndDropSliders.DragAndDropSlidersClass.TestScenario2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@49b2a47d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScenario2()[pri:0, instance:dragAndDropSliders.DragAndDropSlidersClass@4efac082]" started-at="2025-03-10T00:34:24 IST" name="TestScenario2" finished-at="2025-03-10T00:35:06 IST" duration-ms="42270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dragAndDropSliders.DragAndDropSlidersClass@4efac082]" started-at="2025-03-10T00:35:06 IST" name="tearDown" finished-at="2025-03-10T00:35:06 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dragAndDropSliders.DragAndDropSlidersClass -->
+      <class name="inputFormSubmit.InputFormSubmitClass">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:inputFormSubmit.InputFormSubmitClass@5ab956d7]" started-at="2025-03-10T00:33:52 IST" name="setup" finished-at="2025-03-10T00:34:04 IST" duration-ms="11709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void inputFormSubmit.InputFormSubmitClass.TestScenario3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@49b2a47d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScenario3()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@5ab956d7]" started-at="2025-03-10T00:34:04 IST" name="TestScenario3" finished-at="2025-03-10T00:34:15 IST" duration-ms="11598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@5ab956d7]" started-at="2025-03-10T00:34:15 IST" name="tearDown" finished-at="2025-03-10T00:34:16 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- inputFormSubmit.InputFormSubmitClass -->
+      <class name="simpleFormDemo.SimpleFormDemoclass">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:simpleFormDemo.SimpleFormDemoclass@2892d68]" started-at="2025-03-10T00:33:52 IST" name="setup" finished-at="2025-03-10T00:34:10 IST" duration-ms="17548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void simpleFormDemo.SimpleFormDemoclass.TestScenario1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@49b2a47d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScenario1()[pri:0, instance:simpleFormDemo.SimpleFormDemoclass@2892d68]" started-at="2025-03-10T00:34:10 IST" name="TestScenario1" finished-at="2025-03-10T00:34:16 IST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simpleFormDemo.SimpleFormDemoclass@2892d68]" started-at="2025-03-10T00:34:16 IST" name="tearDown" finished-at="2025-03-10T00:34:17 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- simpleFormDemo.SimpleFormDemoclass -->
+    </test> <!-- ParallelTests -->
+  </suite> <!-- LambdaTestSuite -->
+</testng-results>

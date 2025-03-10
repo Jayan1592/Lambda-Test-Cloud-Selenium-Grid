@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LambdaTestSuite" parallel="classes" thread-count="3">
+    <test name="ParallelTests">
+        <classes>
+            <class name="dragAndDropSliders.DragAndDropSlidersClass"/>
+            <class name="simpleFormDemo.SimpleFormDemoclass"/>
+            <class name="inputFormSubmit.InputFormSubmitClass"/>
+        </classes>
+    </test>
+</suite>

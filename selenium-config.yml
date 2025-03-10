@@ -1,0 +1,14 @@
+browserConfig:
+  platform: "Windows 10"
+  browserName: "Chrome"
+  browserVersion: "latest"
+  resolution: "1920x1080"
+  selenium_version: "4.6.0"
+
+parallelExecution:
+  enabled: true
+  threadCount: 3
+  classes:
+    - dragAndDropSliders.DragAndDropSlidersClass
+    - simpleFormDemo.SimpleFormDemoclass
+    - inputFormSubmit.InputFormSubmitClass
